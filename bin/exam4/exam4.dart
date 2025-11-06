@@ -14,7 +14,7 @@ class DicodingStudent {
 
   Future<String> getStudentInfo() {
     // TODO 2
-    return Future.value("Name: $fullName, Age: $age");    
+    return Future.value("Name: $fullName, Age: $age");
 
     // End of TODO 2
   }
@@ -22,9 +22,7 @@ class DicodingStudent {
 
 dynamic createStudent() {
   // TODO 3
-  final student = DicodingStudent(
-    "Fachry Rizky",
-     17);
+  final student = DicodingStudent("Fachry Rizky", 17);
   return student;
 
   // End of TODO 3
